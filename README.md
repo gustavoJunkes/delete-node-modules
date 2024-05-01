@@ -1,5 +1,5 @@
 # delete-node-modules
-CLI project with the simple purpose of cleaning the node_modules folder in the current directory.
+CLI project with the simple purpose of cleaning the node_modules folder in the current directory **and below**.
 
 ## How to use
 
