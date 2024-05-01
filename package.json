@@ -1,0 +1,15 @@
+{
+  "name": "delete-node-modules",
+  "version": "1.0.0",
+  "description": "Um CLI para excluir pastas node_modules",
+  "bin": {
+    "delete-node-modules": "index.js"
+  },
+  "scripts": {
+    "start": "index.js"
+  },
+  "dependencies": {
+    "glob": "^10.3.12",
+    "rimraf": "^5.0.5"
+  }
+}
