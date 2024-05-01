@@ -1,9 +1,9 @@
 {
-  "name": "delete-node-modules",
+  "name": "delete-all-node-modules-dir",
   "version": "1.0.0",
   "description": "Um CLI para excluir pastas node_modules",
   "bin": {
-    "delete-node-modules": "index.js"
+    "delete-all-node-modules": "index.js"
   },
   "scripts": {
     "start": "index.js"
