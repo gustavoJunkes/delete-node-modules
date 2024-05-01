@@ -3,7 +3,7 @@ CLI project with the simple purpose of cleaning the node_modules folder in the c
 
 ## How to use
 
-Donwload the dependency globally using ``` npm i delete-all-node-modules-dir ```.
+Donwload the dependency globally using ``` npm i -g delete-all-node-modules-dir ```.
 
 Then in the root directory of the folder you want to clean, run: ``` delete-all-node-modules ```.
 
