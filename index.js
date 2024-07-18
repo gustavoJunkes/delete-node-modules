@@ -13,13 +13,16 @@ glob('**/node_modules').then((folders) => {
     }
     
     folders.forEach((dir) => {
-        console.log(path.join(process.cwd(), dir))
-        rimraf.windows(path.join(process.cwd(), dir)).then((worked) => {
-          if (worked) {
-            console.log(`Deleted: ${dir}`);
-          } else {
-            console.error(`Error on delete ${dir}`);
-          }
-        });
+        if (!dir.match(/node_modules\\.+/)){
+          console.log(path.join(process.cwd(), dir))
+          rimraf.windows(path.join(process.cwd(), dir)).then((worked) => {
+            if (worked) {
+              console.log(`Deleted: ${dir}`);
+            } else {
+              console.error(`Error on delete ${dir}`);
+            }
+          });
+        }
       });
+      
 })
